@@ -1,0 +1,37 @@
+
+
+.branding {
+
+  background: url(assets/header_bg.svg) no-repeat;
+  justify-content: center;
+
+}
+
+.menu-bar {
+  background-color: darkgrey;
+}
+
+
+.main {
+
+  background: url(assets/bg.jpg);
+
+}
+
+.arty-container {
+
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.arty-box {
+  margin-top: 5%;
+  width: 50%;
+
+  background-color: white;
+}
+
+.footer {
+  background-color: darkgrey;
+}
