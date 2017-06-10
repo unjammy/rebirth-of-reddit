@@ -1,10 +1,7 @@
 
 
 .branding {
-
   background: url(assets/header_bg.svg) no-repeat;
-  justify-content: center;
-
 }
 
 .menu-bar {
@@ -13,9 +10,7 @@
 
 
 .main {
-
   background: url(assets/bg.jpg);
-
 }
 
 .arty-container {
@@ -25,10 +20,14 @@
 
 }
 
-.arty-box {
-  margin-top: 5%;
-  width: 50%;
+.arty-row {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width:90%;
+}
 
+.arty-box {
+  width: 50%;
   background-color: white;
 }
 
