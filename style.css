@@ -8,6 +8,11 @@
   background-color: darkgrey;
 }
 
+#random:hover{ color: yellow; }
+#my-boards:hover{ color: yellow; }
+#get-app:hover{ color: yellow; }
+
+
 
 .main {
   background: url(assets/bg.jpg);
