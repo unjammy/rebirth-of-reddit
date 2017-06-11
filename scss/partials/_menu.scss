@@ -1,18 +1,22 @@
 
-#random:hover{ color: cornflowerblue; }
-#my-boards:hover{ color: cornflowerblue; }
-#get-app:hover{ color: cornflowerblue; }
-
 .menu {
 
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
+  background: url(../assets/navbar.jpg);
+  border-radius: 5px;
+  height: auto;
 
   li {
+    color: white;
     display: inline-block;
     padding: 20px;
+  }
+
+  li:hover {
+    color: cornflowerblue;
   }
 
 }

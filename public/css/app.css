@@ -1,20 +1,25 @@
-#random:hover {
-  color: cornflowerblue; }
-
-#my-boards:hover {
-  color: cornflowerblue; }
-
-#get-app:hover {
-  color: cornflowerblue; }
+.branding {
+  background-color: #e3dac9;
+  margin: auto;
+  padding: auto; }
+  .branding img {
+    margin: auto;
+    display: block; }
 
 .menu {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  background: url(../assets/navbar.jpg);
+  border-radius: 5px;
+  height: auto; }
   .menu li {
+    color: white;
     display: inline-block;
     padding: 20px; }
+  .menu li:hover {
+    color: cornflowerblue; }
 
 #card-container {
   width: 650px;
@@ -24,7 +29,12 @@
   margin: 1rem auto;
   padding: 1rem;
   background-color: white;
-  text-align: center; }
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px black; }
+
+.card:hover {
+  border: 5px solid #FF8040; }
 
 img {
   max-width: 100%;

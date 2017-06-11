@@ -1,6 +1,8 @@
 
-#card-container {
+.container {
+}
 
+#card-container {
   width: 650px;
   margin: 0 auto;
 }
@@ -10,6 +12,13 @@
   padding: 1rem;
   background-color: white;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px black;
+
+}
+
+.card:hover {
+  border: 5px solid #FF8040;
 }
 
 img {
