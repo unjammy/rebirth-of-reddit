@@ -1,0 +1,41 @@
+
+
+.branding {
+  background: url(assets/header_bg.svg) no-repeat;
+}
+
+.menu-bar {
+  background-color: darkgrey;
+}
+
+#random:hover{ color: yellow; }
+#my-boards:hover{ color: yellow; }
+#get-app:hover{ color: yellow; }
+
+
+
+.main {
+  background: url(assets/bg.jpg);
+}
+
+.arty-container {
+
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.arty-row {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width:90%;
+}
+
+.arty-box {
+  width: 50%;
+  background-color: white;
+}
+
+.footer {
+  background-color: darkgrey;
+}
