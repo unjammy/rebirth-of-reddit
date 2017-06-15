@@ -1,10 +1,13 @@
 .branding {
   background-color: #e3dac9;
   margin: auto;
-  padding: auto; }
+  padding: auto;
+}
   .branding img {
     margin: auto;
-    display: block; }
+    display: block;
+  }
+
 
 .menu {
   margin: 0;
