@@ -20,20 +20,26 @@ var builder = function(response){
     thisCard.appendChild(title);
 
     var author = document.createElement('p');
+    author.id = "cardAuthor";
     author.innerHTML = "By: " + article.data.author;
     thisCard.appendChild(author);
 
     var timeStamp = document.createElement('p');
+    timeStamp.id = "cardTimeStamp";
     timeStamp.innerHTML = "created on... " + new Date(article.data.created);
     thisCard.appendChild(timeStamp);
 
     var score = document.createElement('p');
+    score.id = "cardScore";
     score.innerHTML = "Score... " + article.data.score;
     thisCard.appendChild(score);
 
     var snippet = document.createElement('p');
+    snippet.id = "cardSnippet";
     snippet.innerHTML = article.data.selftext;
     thisCard.appendChild(snippet);
+
+    thisCard.style.backgroundColor = "#e3dac9";
 
     document.getElementById('card-container').appendChild(thisCard);
   });

@@ -9,7 +9,8 @@
 }
 
 .card {
-
+  background-color: #e3dac9;
+  font-family: 'Lato', 'serif';
   width: 450px;
   height: 400px;
   margin: 1rem auto;
@@ -21,11 +22,24 @@
   word-wrap: break-word;
   overflow: hidden;
 
+  #cardAuthor {
+    color: red;
+  }
+
+  #cardTimeStamp {
+    color: green;
+  }
+
+  #cardScore {
+    color: cornflowerblue;
+  }
+
+  #cardSnippet {
+    color: purple;
+  }
+
 }
 
-.card:hover {
-  background-color: cornflowerblue;
-}
 
 img {
   max-width: 100%;

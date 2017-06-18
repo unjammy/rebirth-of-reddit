@@ -21,6 +21,7 @@
   border-radius: 5px;
   height: auto; }
   .menu li {
+    font-family: 'Oswald', 'serif';
     color: white;
     display: inline-block;
     padding: 20px; }
@@ -34,6 +35,8 @@
   margin: 0 auto; }
 
 .card {
+  background-color: #e3dac9;
+  font-family: 'Lato', 'serif';
   width: 450px;
   height: 400px;
   margin: 1rem auto;
@@ -44,9 +47,14 @@
   box-shadow: 5px 5px 3px black;
   word-wrap: break-word;
   overflow: hidden; }
-
-.card:hover {
-  background-color: cornflowerblue; }
+  .card #cardAuthor {
+    color: red; }
+  .card #cardTimeStamp {
+    color: green; }
+  .card #cardScore {
+    color: cornflowerblue; }
+  .card #cardSnippet {
+    color: purple; }
 
 img {
   max-width: 100%;
