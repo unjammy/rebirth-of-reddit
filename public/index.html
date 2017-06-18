@@ -7,6 +7,7 @@
           href="https://fonts.googleapis.com/css?family=Oswald">
    <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 <body>
@@ -22,8 +23,15 @@
 
    <ul class="menu">
      <li id="random"><h1>Random</h1></li>
-     <li id="my-boards"><h1>My Boards</h1></li>
-     <li id="get-app"><h1>Get App</h1></li>
+     <li id="my-boards">
+      <div class="dropdown">
+        <h1 class="dropbtn">My Boards</h1>
+        <div class="dropdown-content">
+
+        </div>
+      </div>
+    </li>
+    <li id="get-app"><h1>Get App</h1></li>
    </ul>
 
 
@@ -41,10 +49,18 @@
 
     <img id="facebook" src="assets/facebook_grey.svg">
     <img id="instagram" src="assets/instagram_grey.svg">
-
+    <p>Created By Clark DeNunzio.
+      <a href="https://github.com/unjammy">
+        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://unjammy.me">
+        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+      </a>
+    </p>
   </div>
 
   <script type="text/javascript" src="js/app.js"></script>
+
 
 </body>
 </html>

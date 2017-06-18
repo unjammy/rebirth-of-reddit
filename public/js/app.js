@@ -39,8 +39,6 @@ var builder = function(response){
     snippet.innerHTML = article.data.selftext;
     thisCard.appendChild(snippet);
 
-    thisCard.style.backgroundColor = "#e3dac9";
-
     document.getElementById('card-container').appendChild(thisCard);
   });
 
@@ -100,3 +98,4 @@ document.getElementById('my-boards').addEventListener('click', favorite);
 document.getElementById('get-app').addEventListener('click', random);
 
 favorite();
+favoriteBoards();

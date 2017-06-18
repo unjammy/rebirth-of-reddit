@@ -3,6 +3,19 @@
   width: 100%;
   background-color: #2C3539;
   height: auto;
+  padding: auto;
+  text-align: center;
+  p {
+    font-style: italic;
+    color: silver;
+    font-size: 16pt;
+  }
+  i{
+    color: silver;
+  }
+  i:hover{
+    color: cornflowerblue;
+  }
   img{
     margin: auto;
     display: block;

@@ -5,7 +5,7 @@
 
 #card-container {
   margin: 0 auto;
-
+  height: auto;
 }
 
 .card {
@@ -15,12 +15,11 @@
   height: 400px;
   margin: 1rem auto;
   padding: 1rem;
-  background-color: white;
   text-align: center;
   border-radius: 5px;
   box-shadow: 5px 5px 3px black;
-  word-wrap: break-word;
   overflow: hidden;
+
 
   #cardAuthor {
     color: red;
@@ -36,6 +35,10 @@
 
   #cardSnippet {
     color: purple;
+    line-height: 1em;
+    word-wrap: break-word;
+    height: 5.1em;
+    overflow: hidden;
   }
 
 }
