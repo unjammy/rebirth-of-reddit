@@ -1,0 +1,13 @@
+
+.footer {
+  width: 100%;
+  background-color: #2C3539;
+  height: auto;
+  img{
+    margin: auto;
+    display: block;
+  }
+  img#instagram:hover {
+    content: url(../assets/instagram_orange.svg);
+  }
+}

@@ -1,27 +1,44 @@
 
 .container {
+  width: 100%;
 }
 
 #card-container {
-  width: 650px;
   margin: 0 auto;
+
 }
 
 .card {
+
+  width: 450px;
+  height: 400px;
   margin: 1rem auto;
   padding: 1rem;
   background-color: white;
   text-align: center;
   border-radius: 5px;
   box-shadow: 5px 5px 3px black;
+  word-wrap: break-word;
+  overflow: hidden;
 
 }
 
 .card:hover {
-  border: 5px solid #FF8040;
+  background-color: cornflowerblue;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media only screen and (min-width: 1000px){
+  #card-container {
+    column-count: 2;
+    column-fill: balance;
+    text-align: center;
+  }
+  .card{
+    display: inline-block;
+  }
 }

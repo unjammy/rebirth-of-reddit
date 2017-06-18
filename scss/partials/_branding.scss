@@ -2,12 +2,20 @@
 .branding{
 
   background-color: #e3dac9;
-  margin: auto;
-  padding: auto;
-
+  width: 100%;
+  height: auto;
   img {
+
     margin: auto;
     display: block;
+    z-index: 2;
+  }
+
+  img.background {
+    margin: auto;
+    padding: auto;
+    display: block;
+    z-index: 1;
   }
 
 }

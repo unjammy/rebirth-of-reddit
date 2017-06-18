@@ -81,8 +81,6 @@ var random = function(){
 
 var favorite = function(){
 
-
-  console.log("this is favorite");
   var url = "https://www.reddit.com/r/" + favoriteBoard + ".json";
   console.log(url);
   creator(url);
